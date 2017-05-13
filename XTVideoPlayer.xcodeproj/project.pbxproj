@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847D3E661EC6A2E300AE54E2 /* XTFlashControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D3E651EC6A2E300AE54E2 /* XTFlashControl.m */; };
+		847D3E691EC6A2FA00AE54E2 /* XTCaptureButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D3E681EC6A2FA00AE54E2 /* XTCaptureButton.m */; };
+		847D3E6C1EC6A30C00AE54E2 /* XTCameraModeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D3E6B1EC6A30C00AE54E2 /* XTCameraModeView.m */; };
+		847D3E6F1EC6A31B00AE54E2 /* XTStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D3E6E1EC6A31B00AE54E2 /* XTStatusView.m */; };
+		847D3E721EC6A32B00AE54E2 /* XTPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D3E711EC6A32B00AE54E2 /* XTPreviewView.m */; };
+		847D3E751EC6A33900AE54E2 /* XTCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D3E741EC6A33900AE54E2 /* XTCameraView.m */; };
+		847D3E781EC6A34900AE54E2 /* XTOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D3E771EC6A34900AE54E2 /* XTOverlayView.m */; };
+		847D3E7B1EC6A85000AE54E2 /* XTCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D3E7A1EC6A85000AE54E2 /* XTCameraManager.m */; };
+		847D3E7E1EC6A8DD00AE54E2 /* NSFileManager+XTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D3E7D1EC6A8DD00AE54E2 /* NSFileManager+XTAdditions.m */; };
+		847D3E811EC6CFEB00AE54E2 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D3E801EC6CFEB00AE54E2 /* ViewController2.m */; };
 		84A0FEAA1EC2EA2000806193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A0FEA91EC2EA2000806193 /* main.m */; };
 		84A0FEAD1EC2EA2000806193 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A0FEAC1EC2EA2000806193 /* AppDelegate.m */; };
 		84A0FEB01EC2EA2000806193 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A0FEAF1EC2EA2000806193 /* ViewController.m */; };
@@ -68,6 +78,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		847D3E641EC6A2E300AE54E2 /* XTFlashControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFlashControl.h; sourceTree = "<group>"; };
+		847D3E651EC6A2E300AE54E2 /* XTFlashControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFlashControl.m; sourceTree = "<group>"; };
+		847D3E671EC6A2FA00AE54E2 /* XTCaptureButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTCaptureButton.h; sourceTree = "<group>"; };
+		847D3E681EC6A2FA00AE54E2 /* XTCaptureButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTCaptureButton.m; sourceTree = "<group>"; };
+		847D3E6A1EC6A30C00AE54E2 /* XTCameraModeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTCameraModeView.h; sourceTree = "<group>"; };
+		847D3E6B1EC6A30C00AE54E2 /* XTCameraModeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTCameraModeView.m; sourceTree = "<group>"; };
+		847D3E6D1EC6A31B00AE54E2 /* XTStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTStatusView.h; sourceTree = "<group>"; };
+		847D3E6E1EC6A31B00AE54E2 /* XTStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTStatusView.m; sourceTree = "<group>"; };
+		847D3E701EC6A32B00AE54E2 /* XTPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTPreviewView.h; sourceTree = "<group>"; };
+		847D3E711EC6A32B00AE54E2 /* XTPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTPreviewView.m; sourceTree = "<group>"; };
+		847D3E731EC6A33900AE54E2 /* XTCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTCameraView.h; sourceTree = "<group>"; };
+		847D3E741EC6A33900AE54E2 /* XTCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTCameraView.m; sourceTree = "<group>"; };
+		847D3E761EC6A34900AE54E2 /* XTOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTOverlayView.h; sourceTree = "<group>"; };
+		847D3E771EC6A34900AE54E2 /* XTOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTOverlayView.m; sourceTree = "<group>"; };
+		847D3E791EC6A85000AE54E2 /* XTCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTCameraManager.h; sourceTree = "<group>"; };
+		847D3E7A1EC6A85000AE54E2 /* XTCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTCameraManager.m; sourceTree = "<group>"; };
+		847D3E7C1EC6A8DD00AE54E2 /* NSFileManager+XTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+XTAdditions.h"; sourceTree = "<group>"; };
+		847D3E7D1EC6A8DD00AE54E2 /* NSFileManager+XTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+XTAdditions.m"; sourceTree = "<group>"; };
+		847D3E7F1EC6CFEB00AE54E2 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		847D3E801EC6CFEB00AE54E2 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		847D3E821EC6DA3B00AE54E2 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		84A0FEA51EC2EA2000806193 /* XTVedioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTVedioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A0FEA91EC2EA2000806193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84A0FEAB1EC2EA2000806193 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -151,9 +182,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		847D3E601EC6A24800AE54E2 /* XTCamera */ = {
+			isa = PBXGroup;
+			children = (
+				847D3E611EC6A2C200AE54E2 /* Views */,
+				847D3E621EC6A2C200AE54E2 /* Models */,
+				847D3E631EC6A2C200AE54E2 /* Controllers */,
+			);
+			path = XTCamera;
+			sourceTree = "<group>";
+		};
+		847D3E611EC6A2C200AE54E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				847D3E731EC6A33900AE54E2 /* XTCameraView.h */,
+				847D3E741EC6A33900AE54E2 /* XTCameraView.m */,
+				847D3E641EC6A2E300AE54E2 /* XTFlashControl.h */,
+				847D3E651EC6A2E300AE54E2 /* XTFlashControl.m */,
+				847D3E671EC6A2FA00AE54E2 /* XTCaptureButton.h */,
+				847D3E681EC6A2FA00AE54E2 /* XTCaptureButton.m */,
+				847D3E6A1EC6A30C00AE54E2 /* XTCameraModeView.h */,
+				847D3E6B1EC6A30C00AE54E2 /* XTCameraModeView.m */,
+				847D3E6D1EC6A31B00AE54E2 /* XTStatusView.h */,
+				847D3E6E1EC6A31B00AE54E2 /* XTStatusView.m */,
+				847D3E701EC6A32B00AE54E2 /* XTPreviewView.h */,
+				847D3E711EC6A32B00AE54E2 /* XTPreviewView.m */,
+				847D3E761EC6A34900AE54E2 /* XTOverlayView.h */,
+				847D3E771EC6A34900AE54E2 /* XTOverlayView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		847D3E621EC6A2C200AE54E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		847D3E631EC6A2C200AE54E2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				847D3E791EC6A85000AE54E2 /* XTCameraManager.h */,
+				847D3E7A1EC6A85000AE54E2 /* XTCameraManager.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		84A0FE9C1EC2EA2000806193 = {
 			isa = PBXGroup;
 			children = (
+				847D3E821EC6DA3B00AE54E2 /* Reveal.framework */,
 				84A0FEA71EC2EA2000806193 /* XTVedioPlayer */,
 				84A0FEA61EC2EA2000806193 /* Products */,
 			);
@@ -170,11 +249,14 @@
 		84A0FEA71EC2EA2000806193 /* XTVedioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				847D3E601EC6A24800AE54E2 /* XTCamera */,
 				84A0FEC51EC2EE6400806193 /* Class */,
 				84A0FEAB1EC2EA2000806193 /* AppDelegate.h */,
 				84A0FEAC1EC2EA2000806193 /* AppDelegate.m */,
 				84A0FEAE1EC2EA2000806193 /* ViewController.h */,
 				84A0FEAF1EC2EA2000806193 /* ViewController.m */,
+				847D3E7F1EC6CFEB00AE54E2 /* ViewController2.h */,
+				847D3E801EC6CFEB00AE54E2 /* ViewController2.m */,
 				84A0FEB11EC2EA2000806193 /* Main.storyboard */,
 				84A0FF451EC2F64000806193 /* hubblecast.m4v */,
 				84A0FEB41EC2EA2000806193 /* Assets.xcassets */,
@@ -237,6 +319,8 @@
 				84A0FF551EC305B100806193 /* UIAlertView+XTAdditions.m */,
 				84A0FF561EC305B100806193 /* UIView+XTAdditions.h */,
 				84A0FF571EC305B100806193 /* UIView+XTAdditions.m */,
+				847D3E7C1EC6A8DD00AE54E2 /* NSFileManager+XTAdditions.h */,
+				847D3E7D1EC6A8DD00AE54E2 /* NSFileManager+XTAdditions.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -516,10 +600,20 @@
 				84A0FF581EC305B100806193 /* THOverlayView.m in Sources */,
 				84A0FEB01EC2EA2000806193 /* ViewController.m in Sources */,
 				84A0FF5C1EC305B100806193 /* NSTimer+Additions.m in Sources */,
+				847D3E6F1EC6A31B00AE54E2 /* XTStatusView.m in Sources */,
+				847D3E7E1EC6A8DD00AE54E2 /* NSFileManager+XTAdditions.m in Sources */,
+				847D3E691EC6A2FA00AE54E2 /* XTCaptureButton.m in Sources */,
 				84A0FF5B1EC305B100806193 /* AVAsset+XTAdditions.m in Sources */,
 				84A0FF411EC2F32A00806193 /* XTPlayerManager.m in Sources */,
 				84A0FEAD1EC2EA2000806193 /* AppDelegate.m in Sources */,
+				847D3E751EC6A33900AE54E2 /* XTCameraView.m in Sources */,
+				847D3E7B1EC6A85000AE54E2 /* XTCameraManager.m in Sources */,
+				847D3E6C1EC6A30C00AE54E2 /* XTCameraModeView.m in Sources */,
 				84A0FEAA1EC2EA2000806193 /* main.m in Sources */,
+				847D3E661EC6A2E300AE54E2 /* XTFlashControl.m in Sources */,
+				847D3E781EC6A34900AE54E2 /* XTOverlayView.m in Sources */,
+				847D3E721EC6A32B00AE54E2 /* XTPreviewView.m in Sources */,
+				847D3E811EC6CFEB00AE54E2 /* ViewController2.m in Sources */,
 				84A0FF5E1EC305B100806193 /* UIView+XTAdditions.m in Sources */,
 				84A0FF5A1EC305B100806193 /* XTPlayerView.m in Sources */,
 			);
@@ -642,9 +736,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VK6VB86T3H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = XTVedioPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.houolaladriver.XTVedioPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -655,9 +759,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VK6VB86T3H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = XTVedioPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.houolaladriver.XTVedioPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

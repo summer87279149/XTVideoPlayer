@@ -16,11 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSURL *url = [[NSBundle mainBundle]URLForResource:@"hubblecast.m4v" withExtension:nil];
-    self.manager = [[XTPlayerManager alloc] initWithURL:url];
-    UIView *playerView = self.manager.view;
-    playerView.frame = self.view.frame;
-    [self.view addSubview:playerView];
+//    NSURL *url = [[NSBundle mainBundle]URLForResource:@"hubblecast.m4v" withExtension:nil];
+//    self.manager = [[XTPlayerManager alloc] initWithURL:url];
+//    UIView *playerView = self.manager.view;
+//    playerView.frame = self.view.frame;
+//    [self.view addSubview:playerView];
 }
 -(BOOL)prefersStatusBarHidden{
     return YES;
