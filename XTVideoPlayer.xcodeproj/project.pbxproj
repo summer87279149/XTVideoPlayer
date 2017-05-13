@@ -431,7 +431,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84A0FEA01EC2EA2000806193 /* Build configuration list for PBXProject "XTVedioPlayer" */;
+			buildConfigurationList = 84A0FEA01EC2EA2000806193 /* Build configuration list for PBXProject "XTVideoPlayer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -666,7 +666,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84A0FEA01EC2EA2000806193 /* Build configuration list for PBXProject "XTVedioPlayer" */ = {
+		84A0FEA01EC2EA2000806193 /* Build configuration list for PBXProject "XTVideoPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84A0FEBA1EC2EA2000806193 /* Debug */,
