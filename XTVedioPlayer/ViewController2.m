@@ -1,35 +1,36 @@
-//
-//  ViewController2.m
-//  XTVideoPlayer
-//
-//  Created by Admin on 2017/5/13.
-//  Copyright © 2017年 Summer. All rights reserved.
-//
-#import <MobileCoreServices/MobileCoreServices.h>
-#import "XTOverlayView.h"
-#import "XTCameraManager.h"
 #import "ViewController2.h"
+#import "XTCameraManager.h"
 #import "XTPreviewView.h"
-@interface ViewController2 ()<XTPreviewViewDelegate>
+#import <AVFoundation/AVFoundation.h>
+#import "XTFlashControl.h"
+#import "XTCameraModeView.h"
+#import "XTOverlayView.h"
+#import <MobileCoreServices/MobileCoreServices.h>
+#import "NSTimer+Additions.h"
+
+@interface ViewController2 () <XTPreviewViewDelegate>
 @property (nonatomic) XTCameraMode cameraMode;
 @property (strong, nonatomic) NSTimer *timer;
 @property (strong, nonatomic) XTCameraManager *cameraController;
-@property (strong, nonatomic)  XTPreviewView *previewView;
-@property (strong, nonatomic)  XTOverlayView *overlayView;
-@property (strong, nonatomic)  UIButton *thumbnailButton;
+@property (weak, nonatomic) IBOutlet XTPreviewView *previewView;
+@property (weak, nonatomic) IBOutlet XTOverlayView *overlayView;
+@property (weak, nonatomic) IBOutlet UIButton *thumbnailButton;
 
 @end
 
 @implementation ViewController2
 
+- (IBAction)flashControlChanged:(id)sender {
+    NSInteger mode = [(XTFlashControl *)sender selectedMode];
+    if (self.cameraMode == XTCameraModePhoto) {
+        self.cameraController.flashMode = mode;
+    } else {
+        self.cameraController.torchMode = mode;
+    }
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.previewView = [[XTPreviewView alloc]initWithFrame:self.view.frame];
-    self.view = self.previewView;
-    self.overlayView = [[XTOverlayView alloc]initWithFrame:self.view.frame];
-    [self.view addSubview:self.overlayView];
-    
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(updateThumbnail:)
                                                  name:XTThumbnailCreatedNotification
@@ -48,16 +49,14 @@
     
     self.previewView.tapToFocusEnabled = self.cameraController.cameraSupportsTapToFocus;
     self.previewView.tapToExposeEnabled = self.cameraController.cameraSupportsTapToExpose;
+    
 }
+
 - (void)updateThumbnail:(NSNotification *)notification {
     UIImage *image = notification.object;
     [self.thumbnailButton setBackgroundImage:image forState:UIControlStateNormal];
     self.thumbnailButton.layer.borderColor = [UIColor whiteColor].CGColor;
     self.thumbnailButton.layer.borderWidth = 1.0f;
-}
--(void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-    self.navigationController.navigationBarHidden = YES;
 }
 
 - (IBAction)showCameraRoll:(id)sender {
@@ -78,6 +77,7 @@
 - (IBAction)cameraModeChanged:(id)sender {
     self.cameraMode = [sender cameraMode];
 }
+
 
 - (IBAction)swapCameras:(id)sender {
     if ([self.cameraController switchCameras]) {
@@ -154,20 +154,5 @@
 - (void)tappedToResetFocusAndExposure {
     [self.cameraController resetFocusAndExposureModes];
 }
-
-
-
-
-
-
-
-
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
-
-
 
 @end

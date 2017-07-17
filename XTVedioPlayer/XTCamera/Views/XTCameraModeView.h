@@ -14,7 +14,6 @@ typedef NS_ENUM(NSUInteger, XTCameraMode) {
 };
 
 @interface XTCameraModeView : UIControl
-@property (strong, nonatomic)  UIButton *thumbnailButton;
 @property (nonatomic) XTCameraMode cameraMode;
 
 @end

@@ -12,7 +12,7 @@
 @property (strong, nonatomic) CATextLayer *photoTextLayer;
 @property (strong, nonatomic) UIView *labelContainerView;
 
-@property (strong, nonatomic)  XTCaptureButton *captureButton;
+@property (strong, nonatomic) IBOutlet XTCaptureButton *captureButton;
 @property (nonatomic) BOOL maxLeft;
 @property (nonatomic) BOOL maxRight;
 @property (nonatomic) CGFloat videoStringWidth;

@@ -10,8 +10,8 @@
 
 @interface XTCameraView ()
 
-@property (weak, nonatomic)  XTPreviewView *previewView;
-@property (weak, nonatomic)  XTOverlayView *controlsView;
+@property (weak, nonatomic)IBOutlet  XTPreviewView *previewView;
+@property (weak, nonatomic) IBOutlet XTOverlayView *controlsView;
 
 @end
 
